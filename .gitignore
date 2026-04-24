@@ -1,0 +1,8 @@
+# On ignore le node_modules qui est dans le dossier Fontend
+Fontend/node_modules/
+Fontend/dist/
+Fontend/.env
+
+# Autres fichiers inutiles
+.DS_Store
+*.log
