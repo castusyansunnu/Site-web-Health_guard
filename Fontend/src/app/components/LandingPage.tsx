@@ -17,7 +17,7 @@ export function LandingPage() {
     {/* Logo : On réduit un peu la taille du texte sur mobile si nécessaire */}
     <div className="flex items-center gap-2 md:gap-5">
       <img 
-        src="/src/imports/logo.png" 
+        src="Logo.png" 
         alt="Health Guard Logo" 
         className="w-8 h-8 md:w-10 md:h-10 object-contain" 
       /> 
@@ -83,7 +83,7 @@ export function LandingPage() {
           </div>
           <div className="relative">
             <ImageWithFallback
-             src="src/imports/12.png"
+             src="12.png"
     alt="Medical devices"
     /* h-[300px] par défaut (mobile)
        md:h-[500px] à partir de la taille tablette/desktop
@@ -172,21 +172,21 @@ export function LandingPage() {
           <div className="grid md:grid-cols-3 gap-15">
             <div className="relative h-64 rounded-xl overflow-hidden shadow-lg">
               <ImageWithFallback
-                src="src/imports/11.png"
+                src="11.png"
                 alt="Medical technology"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-64 rounded-xl overflow-hidden shadow-lg">
               <ImageWithFallback
-                src="src/imports/9.png"
+                src="9.png"
                 alt="Healthcare innovation"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-64 rounded-xl overflow-hidden shadow-lg">
               <ImageWithFallback
-                src="src/imports/8.png"
+                src="8.png"
                 alt="Doctor with technology"
                 className="w-full h-full object-cover"
               />
@@ -232,7 +232,7 @@ export function LandingPage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-5 mb-4">
-              <img src="/src/imports/logo.png" alt="Health Guard Logo" className="w-10 h-10 object-contain" />
+              <img src="Logo.png" alt="Health Guard Logo" className="w-10 h-10 object-contain" />
               <span className="text-xl font-bold">Health Guard</span>
             </div>
             <p className="text-white/70">
