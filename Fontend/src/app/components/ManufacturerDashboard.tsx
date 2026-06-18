@@ -142,7 +142,7 @@ const downloadTemplate = () => {
       {/* Header Mobile - Figé en haut */}
   <div className="md:hidden fixed top-0 left-0 w-full z-50 flex items-center justify-between p-2 bg-white border-b border-border shadow-sm">
     <div className="flex items-center gap-2 font-bold text-primary">
-      <img src="/src/imports/logo.png" alt="Logo" className="w-8 h-8 object-contain" />
+      <img src="Logo.png" alt="Logo" className="w-8 h-8 object-contain" />
      <div className="flex text-xl md:text-2xl font-bold">
                <span className="text-primary">Health</span>
                 <span className="text-secondary ml-1">Guard</span>
